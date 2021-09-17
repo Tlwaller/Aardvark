@@ -2,13 +2,15 @@ import { Redirect } from "react-router-dom";
 
 const Onboarding = () => {
 
-    const isLoggedIn = true;
+    const isLoggedIn = false;
     //replace with real authentication
 
     return( isLoggedIn ? (
             <Redirect to="/"/>
         ) : (
-            <h1>Onboarding</h1>
+            <div id="ob-container">
+                <div id="ob-bg-shape"/>
+            </div>
         )
     )
 }

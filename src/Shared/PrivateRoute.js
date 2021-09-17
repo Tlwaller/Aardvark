@@ -2,7 +2,7 @@ import { Redirect, Route } from "react-router";
 
 const PrivateRoute = ({component: Component, ...rest}) => {
 
-    const isLoggedIn = true;
+    const isLoggedIn = false;
         //replace with real authentication
 
     return (
