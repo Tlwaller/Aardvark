@@ -1,0 +1,17 @@
+.big-btn {
+    padding: 2rem;
+    background: linear-gradient(100deg, #7700ff, #0061FF);
+    color:whitesmoke;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 1000;
+    cursor: pointer;
+    transition: padding, .3s;
+}
+
+.big-btn:hover {
+    padding: 2.3rem;
+    transition: padding, .3s;
+}

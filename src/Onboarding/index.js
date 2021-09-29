@@ -9,7 +9,15 @@ const Onboarding = () => {
             <Redirect to="/"/>
         ) : (
             <div id="ob-container">
-                <div id="ob-bg-shape"/>
+                {/* replace bg with this later
+                <div id="ob-bg-shape"/> */}
+                <div id='ob-heading'>
+                    <hgroup>
+                        <h2>Nature's finest exterminator.</h2>
+                        <h3>Get ready to squash your project's nastiest bugs with Aardvark.</h3>
+                    </hgroup>
+                    <button className="big-btn">Get started</button>
+                </div>
             </div>
         )
     )

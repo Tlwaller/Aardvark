@@ -1,9 +1,38 @@
-#ob-bg-shape {
-    position: fixed;
+#ob-container {
+    display: flex;
+    //replace with slanted shape later
+    background: linear-gradient(-70deg, #60EFFF, #0061FF);
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(70deg, #60EFFF, #0061FF);
-    border-radius: 100px;
-    transform: rotate(170deg);
-    top: -50rem;
+
+    //replace bg with this later
+    // #ob-bg-shape {
+    //     position: absolute;
+    //     background: linear-gradient(70deg, #60EFFF, #0061FF);
+    //     border-radius: 100px;
+    //     transform: rotate(165deg);
+    //     margin-top: -80%;
+    //     margin-left: -10%;
+    //     z-index: -99999;
+    // };
+
+    #ob-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50rem;
+        margin-bottom: 30rem;
+        padding-left: 20rem;
+
+        hgroup {
+            h2{
+                font-size: 42pt;
+            };
+    
+            h3 {
+                font-size: xx-large;
+            }
+        }
+    };
 }
