@@ -1,0 +1,22 @@
+#lf-outter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.568);
+
+    #lf-inner {
+        position: absolute;
+        height: 70rem;
+        width: 50rem;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        color: black;
+
+        #lf-exit-btn {
+            cursor: pointer;
+        }
+    }
+}
